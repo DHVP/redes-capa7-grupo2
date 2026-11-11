@@ -9,7 +9,7 @@ Sitio 100% HTML sobre la capa de aplicación del modelo OSI (Redes de Computador
 
 ## Estructura
 ```
-repo-grupo/
+redes-capa7-grupo2/
 ├── README.md
 ├── Dockerfile
 ├── index.html
@@ -25,7 +25,7 @@ repo-grupo/
 Requisito: tener Docker instalado.
 
 ```bash
-git clone https://github.com/USUARIO/redes-capa7-grupo2.git
+git clone https://github.com/DHVP/redes-capa7-grupo2.git
 cd redes-capa7-grupo2
 docker build -t sitio-capa7 .
 docker run -d -p 8080:80 --name sitio-capa7 sitio-capa7
