@@ -12,12 +12,12 @@
   const mobileQuery = matchMedia('(max-width: 760px)');
   const members = [
     {
-      id: 1, name: 'Camilo Rubiano', fullName: 'Camilo Rubiano', initials: 'CR', photo: '', subtitle: 'Integrante del grupo 02',
+      id: 1, name: 'Camilo Rubiano', fullName: 'Camilo Rubiano', initials: 'CR', photo: '', subtitle: 'Aficionado a las redes y la ciberseguridad',
       chapters: [
         { title: 'Quién soy', nodes: [
-          ['Identidad', 'Camilo Rubiano', 'Integrante del grupo 2 de Redes de Computadoras.'],
-          ['Biografía', 'Una historia por conocer', 'Su presentación personal está pendiente de completar.'],
-          ['Este recorrido', 'Redes de Computadoras', 'Modelos de comunicación, direccionamiento y capa de aplicación.']
+          ['Quién soy', 'Camilo Rubiano', 'Soy integrante del grupo 2 de Redes de Computadoras y aficionado a las redes y la ciberseguridad.'],
+          ['Mis intereses', 'Conectar y proteger', 'Me interesa entender cómo se comunican los dispositivos y cómo proteger la información que viaja entre ellos.'],
+          ['Mi objetivo', 'Aprender para construir', 'Quiero fortalecer mis conocimientos para configurar redes, identificar problemas de conectividad y comprender sus riesgos de seguridad.']
         ] },
         { title: 'Lo aprendido en el curso', nodes: [
           ['01 / Modelos', 'OSI y sus siete capas', 'La función de cada capa en la comunicación entre dispositivos.'],
