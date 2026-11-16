@@ -3,25 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Diego Vargas</title>
+  <meta name="theme-color" content="#030910">
+  <meta name="description" content="Tres personas, un recorrido por Redes y Comunicaciones. Explora al grupo 2 en un entorno virtual interactivo.">
+  <title>Diego Humberto Vargas Palacios · Redes y conexiones</title>
+  <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../css/estilos.css">
+  <script src="../js/experiencia.js" defer></script>
 </head>
-<body>
-  <h1>Diego Vargas</h1>
-  <img src="../img/integrante2.jpg" alt="Foto de Diego Vargas" width="200">
-
-  <h2>Biografía</h2>
-  <p>Soy Diego Humberto Vargas Palacios, ingeniero de sistemas de la Universidad de Ibagué, en Tolima. Me interesan las redes de comunicaciones y la infraestructura tecnológica que hace posible que las aplicaciones funcionen, desde el cableado y el direccionamiento hasta los servicios web. Mi meta es desempeñarme en el diseño, la administración y la optimización de redes y sistemas, y seguir aprendiendo nuevas tecnologías.</p>
-
-  <h2>Lo aprendido en el curso</h2>
-  <ul>
-    <li>Modelos OSI y TCP/IP, y estándares de cableado estructurado</li>
-    <li>Capa física y de acceso al medio, cableada e inalámbrica</li>
-    <li>Direccionamiento IPv4 e IPv6 y planes de direccionamiento</li>
-    <li>Enrutamiento estático y dinámico (RIPv2, OSPFv2)</li>
-    <li>Protocolos de transporte (TCP, UDP), DNS y HTTP/HTTPS</li>
-  </ul>
-
-  <p><a href="../index.html">Volver al inicio</a></p>
+<body class="home" data-base=".." data-member="2">
+  <header class="hud">
+    <a class="brand" href="../index.html" aria-label="Grupo 2: volver a los tres integrantes"><strong>GRUPO 02</strong><span>REDES Y COMUNICACIONES</span></a>
+    <div class="hud-actions"><button class="hud-button return" id="back" type="button" hidden>Volver al equipo</button><button class="hud-button accessibility-control" id="motion" type="button" aria-label="Pausar o reanudar la animación ambiental" aria-pressed="false">Animación: activa</button></div>
+  </header>
+  <main class="universe" aria-label="Experiencia de los integrantes del grupo 2">
+    <canvas id="storm" aria-hidden="true"></canvas><div class="vignette" aria-hidden="true"></div>
+    <section class="landing" id="landing" aria-label="Selecciona un integrante"><h1 class="landing-title">TRES PERSONAS. UNA CONEXIÓN.</h1></section>
+    <section class="focus-scene" id="focus-scene" aria-label="Recorrido del integrante" aria-hidden="true" inert>
+      <svg class="pin-layer" id="pin-layer" width="100%" height="100%" aria-hidden="true"><path class="pin-line"/><circle class="pin-ring" r="8"/><circle class="pin-core" r="2"/><path class="pin-line"/><circle class="pin-ring" r="8"/><circle class="pin-core" r="2"/><path class="pin-line"/><circle class="pin-ring" r="8"/><circle class="pin-core" r="2"/></svg>
+      <div class="focus-photo" id="focus-photo"><div class="photo-frame" id="selected-photo"></div><div class="portrait-name"><div class="member-number" id="selected-number"></div><h1 id="selected-name" tabindex="-1"></h1><p id="selected-subtitle"></p></div></div>
+      <div class="callouts" id="callouts"><p class="chapter-kicker" id="chapter-kicker"></p><article class="callout"><span class="callout-label"></span><h2></h2><p></p></article><article class="callout"><span class="callout-label"></span><h2></h2><p></p></article><article class="callout"><span class="callout-label"></span><h2></h2><p></p></article></div>
+    </section>
+  </main>
+  <div class="scene-identifier" id="scene-identifier" aria-hidden="true" hidden>REDES & COMUNICACIONES<span>DEL ORIGEN AL DESTINO</span></div>
+  <div class="scene-hint"><span id="hint-text">Selecciona un retrato para explorar</span><span class="scroll-mark" aria-hidden="true"></span></div>
+  <span class="scene-counter" id="scene-counter" aria-hidden="true">03 NODOS</span>
+  <nav class="chapter-navigation" id="chapter-navigation" aria-label="Etapas del recorrido" hidden><button type="button" aria-label="1. Biografía">01</button><button type="button" aria-label="2. Aprendizajes">02</button><button type="button" aria-label="3. Recorrido">03</button></nav>
+  <div class="reading-progress" id="reading-progress" aria-hidden="true" hidden><span></span></div>
+  <p class="sr-only" id="screen-status" role="status" aria-live="polite"></p>
+  <noscript><style>.universe,.hud,.scene-hint,.scene-counter{display:none}body.home{overflow:auto;height:auto}.fallback{max-width:700px;padding:40px;margin:auto;font:18px/1.7 system-ui}.fallback a{text-decoration:underline}</style><main class="fallback"><h1>Grupo 02 · Redes y Comunicaciones</h1><p>El recorrido animado necesita JavaScript. Estos son los integrantes del grupo:</p><ul><li><a href="../integrantes/integrante1.html">Camilo Rubiano</a></li><li><a href="../integrantes/integrante2.html">Diego Humberto Vargas Palacios</a></li><li><a href="../integrantes/integrante3.html">Julián Rubiano Santofimio</a></li></ul><h2>Camilo Rubiano</h2><p>Integrante del grupo 2. Biografía pendiente. Temas del curso: OSI, IPv4, VLAN y HTTP.</p><h2>Diego Humberto Vargas Palacios</h2><p>Ingeniero de Sistemas de la Universidad de Ibagué. Le interesan las redes, la infraestructura y los servicios web. Ha estudiado OSI, TCP/IP, IPv4, IPv6, enrutamiento y protocolos de aplicación.</p><h2>Julián Rubiano Santofimio</h2><p>Estudiante de Ingeniería de la Universidad de Ibagué, comprometido con aprender y desafiarse a sí mismo. Su recorrido abarca OSI, subnetting, UTP, VLAN, Cisco, GNS3 y máquinas virtuales.</p></main></noscript>
 </body>
 </html>
