@@ -12,7 +12,7 @@
   const mobileQuery = matchMedia('(max-width: 760px)');
   const members = [
     {
-      id: 1, name: 'Camilo Rubiano', fullName: 'Camilo Rubiano', initials: 'CR', photo: '', subtitle: 'Aficionado a las redes y la ciberseguridad',
+      id: 1, name: 'Camilo Rubiano', fullName: 'Camilo Rubiano', initials: 'CR', photo: 'img/integrante1.png', photoPosition: 'center 30%', subtitle: 'Aficionado a las redes y la ciberseguridad',
       chapters: [
         { title: 'Quién soy', nodes: [
           ['Quién soy', 'Camilo Rubiano', 'Soy integrante del grupo 2 de Redes de Computadoras y aficionado a las redes y la ciberseguridad.'],
